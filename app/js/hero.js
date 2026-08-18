@@ -14,7 +14,7 @@ const tl=gsap.timeline({defaults:{ease:'power3.out'}});
 tl.from('.home-eyebrow',{opacity:0,y:16,duration:.7})
 .from('.home-text h1',{opacity:0,y:26,duration:.9},'-=.45')
 .from('.home-text p',{opacity:0,y:18,duration:.8},'-=.55')
-.from('.home-cta a',{opacity:0,y:16,duration:.7,stagger:.1},'-=.5')
+.fromTo('.home-cta a',{opacity:0,y:16},{opacity:1,y:0,duration:.7,stagger:.1},'-=.5')
 .from('.home-stats > div',{opacity:0,y:14,duration:.6,stagger:.08},'-=.45')
 .from('.hv-card',{opacity:0,y:40,scale:.94,duration:.9,stagger:.14},'-=.9')
 .from('.home-visual .hero-float',{opacity:0,y:18,duration:.7},'-=.4');
