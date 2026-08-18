@@ -587,8 +587,8 @@ section{padding:3.6rem 0 1rem}
 .home-text p{font-size:.88rem}
 .home-cta{gap:10px}
 .btn,.btn-ghost{padding:13px 20px;font-size:.82rem}
-.home-stats{gap:10px;margin-top:24px}
-.home-stats div{padding:6px 10px;min-width:74px}
+.home-stats{gap:8px;margin-top:24px}
+.home-stats div{padding:4px 8px;min-width:70px}
 .stat-num{font-size:1rem}
 .home-visual{display:none}
 
